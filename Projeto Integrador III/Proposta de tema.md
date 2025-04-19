@@ -61,7 +61,7 @@ Clique [aqui](https://github.com/users/JorgeAguiarIFSC/projects/1/views/1?layout
 |    |  |   |  |  | **R$ 130,00** |
 
 # Unidades curriculares envolvidas
-> liste as unidades curriculares envolvidas com o tema escolhido
-- Disciplina 1;
-- Disciplina 2;
-- Disciplina n.
+- Circuitos Elétricos;
+- Processamento de Sinais;
+- Instrumentação Eletrônica;
+- Eletrônica.
