@@ -1,24 +1,56 @@
 > toda proposta de tema de projeto de PI3 deve seguir o padrão abaixo.
 
 # Proposta de Tema de PI3
-Título:
+Título: Desenvolvimento de um Pedal Flanger para Guitarra Baseada em Circuitos Analógicos
 
-Aluno(s): Nome 1 e Nome 2 
+Aluno(s): Jorge Luiz de Aguiar Paes Filho
 
-Orientador: Prof. Nome
+Orientador: Prof. João Paulo Camelo Cunha
 
 # Objetivo geral
-> o objetivo geral expressa a ação que irá definir o projeto em um sentido amplo
+Desenvolver uma pedaleira de efeitos para guitarra baseada em circuitos analógicos, proporcionando uma alternativa relativamente barata em relação às pedaleiras vendidas no mercado. O projeto visa explorar diferentes configurações eletrônicas para a modulação do sinal da guitarra, garantindo versatilidade tonal e fidelidade sonora, diminuindo possíveis problemas criados no circuito.
 
 # Objetivos específicos
-> os objetivos específicos são as diferentes ações a serem tomadas durante o desenvolvimento visando concretizar o objetivo geral
+> Pesquisar e analisar circuitos analógicos clássicos utilizados em pedais de efeito, como overdrive, distorção, delay, chorus e reverb, identificando suas características sonoras e possibilidades de otimização;
+> Projetar e construir um gabinete resistente e ergonômico para a pedaleira, considerando aspectos como tamanho, disposição dos controles e conectores, bem como durabilidade;
+> Documentar o processo de desenvolvimento do pedal, incluindo esquemas elétricos, metodologia de montagem e testes, para futuras melhorias ou replicação do projeto;
+> Testar e ajustar o circuito eletrônico e a interface da pedaleira, realizando calibrações para garantir a fidelidade do sinal da guitarra e o desempenho adequado do efeito.
 
 # Metodologia
-> descreva a metodologia de desenvolvimento destacando quais são as etapas
+1. Pesquisa e Referencial Teórico
+   >Levantamento de informações sobre circuitos analógicos clássicos utilizados em pedais de efeito, como overdrive, distorção, delay, chorus e reverb;
+   >Estudo de princípios eletrônicos aplicados ao processamento de áudio, como amplificação, filtragem e modulação de sinal;
+   >Análise de projetos existentes e identificação de possíveis melhorias para otimização do desempenho e redução de ruídos.
+
+2. Projeto e Desenvolvimento dos Circuitos
+  >Seleção dos efeitos a serem implementados e escolha dos componentes eletrônicos adequados para cada circuito;
+  >Desenvolvimento dos esquemáticos dos circuitos utilizando software de simulação (ex.: LTSpice, Proteus ou KiCad) para validar o funcionamento antes da montagem física.
+
+3. Montagem e Testes dos Circuitos
+   >Aquisição dos componentes eletrônicos;
+   >Soldagem e montagem dos circuitos em protoboard para testes preliminares;
+   >Ajustes e calibração dos circuitos para otimizar o desempenho do efeito.
+
+4. Integração do Efeito e Construção do Protótipo
+   >Desenvolvimento do design do gabinete, considerando ergonomia, disposição dos controles e conectores;
+   >Construção do gabinete com materiais adequados para garantir durabilidade e proteção dos circuitos eletrônicos.
+
+5. Testes Finais e Validação
+   >Avaliação do desempenho geral do pedal, incluindo qualidade sonora, usabilidade e robustez da construção;
+   >Ajustes finais conforme necessário para melhorar a experiência do usuário.
+
+6. Documentação e Conclusão
+   >Registro detalhado do processo de desenvolvimento, incluindo esquemas elétricos, metodologia de montagem e testes;
+   >Análise dos resultados obtidos e identificação de possíveis melhorias futuras;
+   >Redação do relatório final do projeto, apresentando os desafios enfrentados, soluções adotadas e conclusões sobre a viabilidade do sistema desenvolvido.
+
 
 # Cronograma
-> crie um projeto no GitHub discriminando as ações e o período em que as mesmas serão realizadas
-> coloque dentro do parênteses abaixo o link para o projeto criado
+> crie um projeto no GitHub discriminando as ações e o período em que as mesmas serão realizadas;
+> coloque dentro do parênteses abaixo o link para o projeto criado;
+
+
+
 
 Clique [aqui](https://github.com/users/sergiopetrovcic/projects/8/views/1?layout=roadmap) para acessar o cronograma.
 
