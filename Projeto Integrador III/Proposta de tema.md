@@ -11,10 +11,10 @@ Orientador: Prof. João Paulo Camelo Cunha
 Desenvolver uma pedaleira de efeitos para guitarra baseada em circuitos analógicos, proporcionando uma alternativa relativamente barata em relação às pedaleiras vendidas no mercado. O projeto visa explorar diferentes configurações eletrônicas para a modulação do sinal da guitarra, garantindo versatilidade tonal e fidelidade sonora, diminuindo possíveis problemas criados no circuito.
 
 # Objetivos específicos
-> Pesquisar e analisar circuitos analógicos clássicos utilizados em pedais de efeito, como overdrive, distorção, delay, chorus e reverb, identificando suas características sonoras e possibilidades de otimização;
-> Projetar e construir um gabinete resistente e ergonômico para a pedaleira, considerando aspectos como tamanho, disposição dos controles e conectores, bem como durabilidade;
-> Documentar o processo de desenvolvimento do pedal, incluindo esquemas elétricos, metodologia de montagem e testes, para futuras melhorias ou replicação do projeto;
-> Testar e ajustar o circuito eletrônico e a interface da pedaleira, realizando calibrações para garantir a fidelidade do sinal da guitarra e o desempenho adequado do efeito.
+   > Pesquisar e analisar circuitos analógicos clássicos utilizados em pedais de efeito, como overdrive, distorção, delay, chorus e reverb, identificando suas características sonoras e possibilidades de otimização;
+   > Projetar e construir um gabinete resistente e ergonômico para a pedaleira, considerando aspectos como tamanho, disposição dos controles e conectores, bem como durabilidade;
+   > Documentar o processo de desenvolvimento do pedal, incluindo esquemas elétricos, metodologia de montagem e testes, para futuras melhorias ou replicação do projeto;
+   > Testar e ajustar o circuito eletrônico e a interface da pedaleira, realizando calibrações para garantir a fidelidade do sinal da guitarra e o desempenho adequado do efeito.
 
 # Metodologia
 1. Pesquisa e Referencial Teórico
