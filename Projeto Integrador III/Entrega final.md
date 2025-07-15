@@ -10,6 +10,12 @@ O pedal fuzz é um dos efeitos mais emblemáticos e transformadores na história
 
 Esses incidentes acidentais serviram como catalisadores para a busca intencional desse timbre particular. A demanda por uma replicação controlada do som distorcido impulsionou a inovação tecnológica no campo da eletrônica musical. O primeiro pedal comercial, o Maestro FZ-1 Fuzz-Tone, foi lançado pela Gibson em 1962. Embora as vendas iniciais fossem lentas, sua popularidade explodiu após o uso proeminente por Keith Richards dos Rolling Stones na icônica "(I Can't Get No) Satisfaction" em 1965, impulsionando o interesse e a demanda pelo efeito. Desde então, o fuzz moldou e influenciou profundamente diversos gêneros musicais, como rock psicodélico, hard rock, heavy metal, punk, shoegaze e grunge, tornando-se uma ferramenta essencial para a expressão criativa de guitarristas renomados como Jimi Hendrix, David Gilmour e Billy Corgan.   
 
+
+  <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/7fb38966-a41a-4ed4-8def-7394c5c4c5c1" />
+  
+  Figura 1 : Pedal Maestro FZ-1 Fuzz-Tone
+
+
 Neste projeto serão explorados o histórico do efeito, os princípios eletrônicos subjacentes que governam sua operação, as topologias de circuito clássicas que definiram seu som, o papel específico de cada componente eletrônico, as características elétricas fundamentais para seu funcionamento e integração, as modificações comuns que permitem a personalização tonal e as técnicas de redução de ruído para otimizar o desempenho. O objetivo final é capacitar o construtor com o conhecimento aprofundado necessário para projetar, montar, testar e otimizar um pedal fuzz, compreendendo as nuances técnicas que definem seu timbre e desempenho no contexto de um trabalho acadêmico. O construtor deve reconhecer que as "imperfeições" do circuito (como o clipping severo) são, na verdade, a fonte do caráter único do fuzz. Além disso, a história destaca a importância da interação do pedal com outros elementos da cadeia de sinal (guitarra, amplificador) e o papel do músico na moldagem do som, incentivando a experimentação e a compreensão do sistema.   
 
 ### Primeiros Pedais Comerciais e Popularização
@@ -54,6 +60,11 @@ O Fuzz Face, lançado em 1966 pela Dallas Arbiter, é notável por sua simplicid
 
 Originalmente, o Fuzz Face utilizava transistores de germânio, como os Mullard OC75s ou NKT275s, que eram valorizados por seu timbre orgânico e responsivo. Posteriormente, foram substituídos por transistores de silício para maior estabilidade e consistência na produção em massa. A seleção cuidadosa dos transistores de germânio é crucial para o desempenho ideal, com a recomendação de um transistor de baixo ganho (β≈70-80) no primeiro estágio e um de alto ganho (β≈110-130) no segundo estágio para alcançar o timbre desejado.
 A impedância de entrada do Fuzz Face é relativamente baixa, variando aproximadamente entre 5kΩ e 8.4kΩ. Essa característica faz com que ele "carregue" os captadores da guitarra, o que significa que ele absorve parte da energia do captador e amortece seu pico de ressonância, influenciando diretamente o timbre e a interação com os controles de volume e tom da guitarra. Essa baixa impedância é a razão pela qual é crucial que o Fuzz Face seja o primeiro pedal na cadeia de sinal, logo após a guitarra, pois ele não responde bem se precedido por pedais com buffer, que alteram a impedância do sinal.   
+
+
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/2230516e-248f-466f-8942-7b1109c344c4" />
+
+ Figura 2 : Pedal Fuzz Face
 
 ### Componentes Eletrônicos e Seu Papel no Circuito Fuzz
 
