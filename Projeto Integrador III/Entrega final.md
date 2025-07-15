@@ -11,11 +11,15 @@ O pedal fuzz é um dos efeitos mais emblemáticos e transformadores na história
 Esses incidentes acidentais serviram como catalisadores para a busca intencional desse timbre particular. A demanda por uma replicação controlada do som distorcido impulsionou a inovação tecnológica no campo da eletrônica musical. O primeiro pedal comercial, o Maestro FZ-1 Fuzz-Tone, foi lançado pela Gibson em 1962. Embora as vendas iniciais fossem lentas, sua popularidade explodiu após o uso proeminente por Keith Richards dos Rolling Stones na icônica "(I Can't Get No) Satisfaction" em 1965, impulsionando o interesse e a demanda pelo efeito. Desde então, o fuzz moldou e influenciou profundamente diversos gêneros musicais, como rock psicodélico, hard rock, heavy metal, punk, shoegaze e grunge, tornando-se uma ferramenta essencial para a expressão criativa de guitarristas renomados como Jimi Hendrix, David Gilmour e Billy Corgan.   
 
 
+<p align="center">
+  Imagem 1: Pedal Maestro FZ-1 Fuzz-Tone
+</p>
+<p align="center">
   <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/7fb38966-a41a-4ed4-8def-7394c5c4c5c1" />
-  
-  Figura 1 : Pedal Maestro FZ-1 Fuzz-Tone
-
-
+</p>
+<p align="center">
+ Fonte: Google Imagens
+</p>
 Neste projeto serão explorados o histórico do efeito, os princípios eletrônicos subjacentes que governam sua operação, as topologias de circuito clássicas que definiram seu som, o papel específico de cada componente eletrônico, as características elétricas fundamentais para seu funcionamento e integração, as modificações comuns que permitem a personalização tonal e as técnicas de redução de ruído para otimizar o desempenho. O objetivo final é capacitar o construtor com o conhecimento aprofundado necessário para projetar, montar, testar e otimizar um pedal fuzz, compreendendo as nuances técnicas que definem seu timbre e desempenho no contexto de um trabalho acadêmico. O construtor deve reconhecer que as "imperfeições" do circuito (como o clipping severo) são, na verdade, a fonte do caráter único do fuzz. Além disso, a história destaca a importância da interação do pedal com outros elementos da cadeia de sinal (guitarra, amplificador) e o papel do músico na moldagem do som, incentivando a experimentação e a compreensão do sistema.   
 
 ### Primeiros Pedais Comerciais e Popularização
@@ -62,9 +66,15 @@ Originalmente, o Fuzz Face utilizava transistores de germânio, como os Mullard 
 A impedância de entrada do Fuzz Face é relativamente baixa, variando aproximadamente entre 5kΩ e 8.4kΩ. Essa característica faz com que ele "carregue" os captadores da guitarra, o que significa que ele absorve parte da energia do captador e amortece seu pico de ressonância, influenciando diretamente o timbre e a interação com os controles de volume e tom da guitarra. Essa baixa impedância é a razão pela qual é crucial que o Fuzz Face seja o primeiro pedal na cadeia de sinal, logo após a guitarra, pois ele não responde bem se precedido por pedais com buffer, que alteram a impedância do sinal.   
 
 
+<p align="center">
+  Imagem 2: Pedal Fuzz Face
+</p>
+<p align="center">
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/2230516e-248f-466f-8942-7b1109c344c4" />
-
- Figura 2 : Pedal Fuzz Face
+</p>
+<p align="center">
+  Fonte: Google Imagens
+</p>
 
 ### Componentes Eletrônicos e Seu Papel no Circuito Fuzz
 
@@ -161,22 +171,111 @@ Os tipos de resistores mais comuns e suas aplicações incluem:
 | Resistor 100k Ohm | 1 |
 | Resistor 8,2k Ohm | 1 |
 | Transistor BC109C | 1 |
-### Métodos
+| Case PVC | 1 |
 
+### Métodos
+1. Pesquisa e Referencial Teórico
+   - Levantamento de informações sobre circuitos analógicos clássicos utilizados em pedais de efeito, como overdrive, distorção, delay, chorus e reverb;
+   - Estudo de princípios eletrônicos aplicados ao processamento de áudio, como amplificação, filtragem e modulação de sinal;
+   - Análise de projetos existentes e identificação de possíveis melhorias para otimização do desempenho e redução de ruídos.
+
+2. Projeto e Desenvolvimento dos Circuitos
+  - Seleção dos efeitos a serem implementados e escolha dos componentes eletrônicos adequados para cada circuito;
+  - Desenvolvimento dos esquemáticos dos circuitos utilizando software de simulação (ex.: LTSpice, Proteus ou KiCad) para validar o funcionamento antes da montagem física.
+
+3. Montagem e Testes dos Circuitos
+   - Aquisição dos componentes eletrônicos;
+   - Soldagem e montagem dos circuitos em protoboard para testes preliminares;
+   - Ajustes e calibração dos circuitos para otimizar o desempenho do efeito.
+
+4. Integração do Efeito e Construção do Protótipo
+   - Desenvolvimento do design do gabinete, considerando ergonomia, disposição dos controles e conectores;
+   - Construção do gabinete com materiais adequados para garantir durabilidade e proteção dos circuitos eletrônicos.
+
+5. Testes Finais e Validação
+   - Avaliação do desempenho geral do pedal, incluindo qualidade sonora, usabilidade e robustez da construção;
+   - Ajustes finais conforme necessário para melhorar a experiência do usuário.
+
+6. Documentação e Conclusão
+   - Registro detalhado do processo de desenvolvimento, incluindo esquemas elétricos, metodologia de montagem e testes;
+   - Análise dos resultados obtidos e identificação de possíveis melhorias futuras;
+   - Redação do relatório final do projeto, apresentando os desafios enfrentados, soluções adotadas e conclusões sobre a viabilidade do sistema desenvolvido.
+     
 ## Resultados
 
-[Incluir e comentar sobre: Diagrama final do protótipo, descrição dos testes realizados, apresentação e análise dos resultados dos testes realizados, fotos, diagramas, tabelas comparativas.]
+Após a compra dos materiais, iniciou-se o processo de montagem, usando os esquemáticos abaixo como guia para desenvolvimento dos componentes na protoboard:
+<p align="center">
+  Imagem 3: Esquemático Pedal Fuzz Face Clone
+</p>
+<p align="center">
+  <img width="700" height="700" alt="image" src="https://github.com/user-attachments/assets/d103c9cd-a989-4793-a35e-dc961216dc40" />
+</p>
+<p align="center">
+  Fonte: Barbarach BC
+</p>
+
+<p align="center">
+  Imagem 4: Simulação do Pedal Montado em Protoboard
+</p>
+<p align="center">
+ <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/64ccc7d0-8147-4311-b9ee-9edbdff9efc9" />
+</p>
+<p align="center">
+  Fonte: Barbarach BC
+</p>
+
+A ideia era que o circuito ficasse o mais compacto possível. A montagem final pode ser vista na imagem abaixo:
+
+
+<p align="center">
+  Imagem 5: Montagem Final do Pedal Fuzz
+</p>
+<p align="center">
+ <img width="800" height="500" alt="image" src="https://github.com/user-attachments/assets/153c81d9-8225-4f3b-a1fe-224cd9f4e6c7" />
+</p>
+<p align="center">
+  Fonte: Autor
+</p>
+
+
+Além do pedal em si, foi implementaod um botão DPDT que serve como bypass: em um estágio, o sinal vindo da guitarra passa pelo circuito e é alterado pelo mesmo. Já no outro estágio do botão, o sinal limpo da guitarra passa direto para o amplificador, sem passar pelo circuito.
+
+Para proteção do circuito, foi comprada uma case de PVC, que foi furada para que os jacks P10 de entrada e saída, o botão e os dois potenciômetros ficassem com fácil acesso, permitindo usabilidade do pedal.
 
 ## Conclusão
 
 ### Dificuldades encontradas
 
-[Apresente as dificuldades encontradas durante ao longo do desenvolvimento do seu trabalho.]
+A ideia inicial seria executar um circuito com maior grau de complexidade, a escolha era o pedal de efeito Flanger. Porém na hora da compra dos componentes, havia um CI específico que não era mais fabricado, e as poucas unidades restantes no mercados custavam muito caro, inviabilizando o projeto. Também foi estudada a possibilidade de realizar outro tipo de pedal flanger ou outro efeito, já que existem diversos pedais com vários tipos de efeitos diferentes, entretanto, a maioria dos pedais de efeito têm um circuito muito extenso por trás, fazendo com que a montagem em protoboard ou em placa de circuito impressa fique muito complexa e difícil de resolver problemas no circuito, caso algum viesse a aparecer durante a montagem.
 
 ### Sugestões para trabalhos futuros
 
-[Apresente suas sugestões de trabalhos futuros.]
+Como melhorias para esse pedal, é recomendado que seja feita a troca da case de PVC por uma case metálica. A case metálica evita que o circuito fique suscetível a interferências eletromagnéticas radiadas pelo ar, podendo causar mal funcionamento ou mudança do sinal de saída esperado.
+Ademais, é recomendado que o circuito seja montado em placa de circuito impresso, com as conexões entre os componentes sendo feitas através de solda. Atualmente, com a placa montade em protoboard, pode haver mal contato e até mesmo que os componentes se desconectem da protoboard quando o pedal está sendo movimentado.
+Finalmente, é recomendado que seja feita a troca da alimentação do pedal. Hoje ele está sendo alimentado através de uma bateria 9V interna, que por si só funciona perfeitamente, porém, para evitar que seja necessário abrir o pedal para trocar a bateria quando ela descarregar, a substituição para um conector P4 (figura abaixo), assim, seria necessário que o pedal fosse conectado a uma fonte 9V externa, evitando a necessidade da troca de bateria interna.
+
+
+<p align="center">
+  Imagem 6: Jack P4 Fêmea
+</p>
+<p align="center">
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/5f130cb9-4a12-4034-a5f2-8db7cee9d8c6" />
+</p>
+<p align="center">
+  Fonte: Google Imagens
+</p>
 
 ## Referências
+- AIRGIGS. History & evolution of the fuzz pedal (Fuzz Face, Tone Bender & Big Muff). [S. l.], 23 abr. 2019. Disponível em: https://blog.airgigs.com/2019/04/history-evolution-of-the-fuzz-pedal-fuzz-face-tone-bender-big-muff/.
+- BOOST GUITAR PEDALS. What are clipping diodes?. [S. l.], 23 nov. 2022. Disponível em: https://www.boostguitarpedals.co.uk/blogs/pedal-knowledge/what-are-clipping-diodes-guitar-pedal.
+- CODA EFFECTS. The different types of fuzz. [S. l.], 13 ago. 2015. Disponível em: https://www.coda-effects.com/2015/08/the-different-types-of-fuzz.html?m=0.
+- ELECTROSMMASH. Fuzz Face analysis. [S. l.], [20--?]. Disponível em: https://www.electrosmash.com/fuzz-face.
+- ELECTROSMMASH. Big Muff Pi analysis. [S. l.], [20--?]. Disponível em: https://www.electrosmash.com/big-muff-pi-analysis.
+- GUITAR CENTER. History of the fuzz pedal. [S. l.], 21 jul. 2023. Disponível em: https://www.guitarcenter.com/riffs/gear-tips/amplifiers--effects/history-fuzz-pedal.
+- PEDAL PLAYERS. Silicon vs Germanium Fuzz. [S. l.], [20--?]. Disponível em: https://pedalplayers.com/silicon-vs-germanium-fuzz/.
+- PEDAL PAWN. Silicon vs Germanium transistors (fuzz pedals explained). [S. l.], 10 fev. 2023. Disponível em: https://pedalpawn.com/it/blogs/news/silicon-vs-germanium-transistors-fuzz-pedals-explained.
+- REDDIT. Understanding the fuzz pedal, their components and the values of the components. [S. l.], 2 maio 2024. Disponível em: https://www.reddit.com/r/diypedals/comments/1e31u6a/understanding_the_fuzz_pedal_their_components_and/.
+- SLIGHTLY TECHNICAL ACADEMY. Building better pedals: the real role of components in guitar tone. [S. l.], [20--?]. Disponível em: https://www.slightlytechnicalacademy.com/techpages/building-better-pedals-the-real-role-of-components-in-guitar-tone.
+- "Building a Fuzz Face Clone - Breadboarding - Barbarach BC". Barbarach BC, 1 de setembro de 2021. Disponível em: https://barbarach.com/building-a-fuzz-face-clone-breadboarding/
+- "Building a Fuzz Face Clone – Assembly - Barbarach BC". Barbarach BC, 4 de outubro de 2021. Disponível em: https://barbarach.com/building-a-fuzz-face-clone-assembly/
 
-[Inserir todas as referências utilizadas. Sugere-se o uso do site referenciabibliografica.net para a geração das referências. Veja o exemplo abaixo.]
